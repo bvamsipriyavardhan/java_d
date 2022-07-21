@@ -28,10 +28,5 @@ jobs:
       run: 
            mvn -B package --file pom.xml
         
-      
-    - name: Save artifact
-      uses: actions/upload-artifact@v3
-      with:
-          name: github-actions-artifact
-          path: artifacts
+    
             
